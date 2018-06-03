@@ -29,11 +29,15 @@
  * Meant to be compiled on x64/x86 based Windows systems 
  * Most of em should have default winsock dll so bin would work on most win machines
  * 
- * Compile: Install MinGw minimalist gnu
+ * Compile: Meant to compile on windows base machines
+ *          Install MinGw minimalist gnu
  *          Netbeans ide
  *          Import files to a project
  *          Link ws2_32.a from mingw install directory in proejct properties
  *          let ide build executable
+ *          or ofc you can just build with gcc.exe if u have mingw or similar 
+ *          just link the winsock lib
+ *
  *  
  *
  * Created on May 12, 2018, 10:12 PM
