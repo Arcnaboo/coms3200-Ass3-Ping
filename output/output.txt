@@ -1,0 +1,60 @@
+// COMS3200_Assignment 3 - Arda Akgur s4382911
+
+ASSIGNMENT_PROGRAM_cppApplication3.exe (PowerShell Admin mode) {
+	
+	PS C:\Users\arc\Documents\NetBeansProjects\CppApplication_3\dist\Debug\MinGW-Windows> .\cppapp
+	lication_3.exe google.com 255
+	Ping router by Arda Akgur
+					s4382911
+
+	Attempting to initialize Winsock...Successfully initialized
+	google.com resolved to 216.58.220.110
+	ICMP packet size 32bytes from 216.58.220.110 TTL=53 latency: 31ms
+	ICMP packet size 32bytes from 216.58.220.110 TTL=53 latency: 32ms
+	ICMP packet size 32bytes from 216.58.220.110 TTL=53 latency: 31ms
+	ICMP packet size 32bytes from 216.58.220.110 TTL=53 latency: 31ms
+
+	4 packets sent, average 31ms latency.
+	PS C:\Users\arc\Documents\NetBeansProjects\CppApplication_3\dist\Debug\MinGW-Windows> .\cppapp
+	lication_3.exe uq.edu.au 255
+	Ping router by Arda Akgur
+					s4382911
+
+	Attempting to initialize Winsock...Successfully initialized
+	uq.edu.au resolved to 130.102.131.123
+	ICMP packet size 32bytes from 130.102.131.123 TTL=243 latency: 15ms
+	ICMP packet size 32bytes from 130.102.131.123 TTL=243 latency: 31ms
+	ICMP packet size 32bytes from 130.102.131.123 TTL=243 latency: 15ms
+	ICMP packet size 32bytes from 130.102.131.123 TTL=243 latency: 31ms
+
+	4 packets sent, average 23ms latency.
+	PS C:\Users\arc\Documents\NetBeansProjects\CppApplication_3\dist\Debug\MinGW-Windows> .\cppapp
+	lication_3.exe nist.gov 255
+	Ping router by Arda Akgur
+					s4382911
+
+	Attempting to initialize Winsock...Successfully initialized
+	nist.gov resolved to 129.6.13.49
+	Request timed out
+	PS C:\Users\arc\Documents\NetBeansProjects\CppApplication_3\dist\Debug\MinGW-Windows> .\cppapp
+	lication_3.exe not.correct.au 255
+	Ping router by Arda Akgur
+					s4382911
+
+	Attempting to initialize Winsock...Successfully initialized
+	Error resolving not.correct.au
+	PS C:\Users\arc\Documents\NetBeansProjects\CppApplication_3\dist\Debug\MinGW-Windows> .\cppapp
+	lication_3.exe us.dd.imdb.com 255
+	Ping router by Arda Akgur
+					s4382911
+
+	Attempting to initialize Winsock...Successfully initialized
+	us.dd.imdb.com resolved to 52.94.237.74
+	ICMP packet size 32bytes from 52.94.237.74 TTL=228 latency: 234ms
+	ICMP packet size 32bytes from 52.94.237.74 TTL=228 latency: 235ms
+	ICMP packet size 32bytes from 52.94.237.74 TTL=228 latency: 234ms
+	ICMP packet size 32bytes from 52.94.237.74 TTL=228 latency: 266ms
+
+	4 packets sent, average 242ms latency.
+}
+

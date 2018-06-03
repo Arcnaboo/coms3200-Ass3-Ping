@@ -1,0 +1,57 @@
+
+REGULAR_WINDOWS_PING.EXE (Windows cmd user mode) {
+	C:\Users\arc>ping google.com
+
+	Pinging google.com [216.58.220.110] with 32 bytes of data:
+	Reply from 216.58.220.110: bytes=32 time=25ms TTL=55
+	Reply from 216.58.220.110: bytes=32 time=27ms TTL=55
+	Reply from 216.58.220.110: bytes=32 time=30ms TTL=55
+	Reply from 216.58.220.110: bytes=32 time=37ms TTL=55
+
+	Ping statistics for 216.58.220.110:
+		Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+		Minimum = 25ms, Maximum = 37ms, Average = 29ms
+
+	C:\Users\arc>ping uq.edu.au
+
+	Pinging uq.edu.au [130.102.131.123] with 32 bytes of data:
+	Reply from 130.102.131.123: bytes=32 time=11ms TTL=243
+	Reply from 130.102.131.123: bytes=32 time=14ms TTL=243
+	Reply from 130.102.131.123: bytes=32 time=13ms TTL=243
+	Reply from 130.102.131.123: bytes=32 time=11ms TTL=243
+
+	Ping statistics for 130.102.131.123:
+		Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+		Minimum = 11ms, Maximum = 14ms, Average = 12ms
+
+	C:\Users\arc>ping nist.gov
+
+	Pinging nist.gov [129.6.13.49] with 32 bytes of data:
+	Request timed out.
+	Request timed out.
+	Request timed out.
+	Request timed out.
+
+	Ping statistics for 129.6.13.49:
+		Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+	C:\Users\arc>ping not.correct.au
+	Ping request could not find host not.correct.au. Please check the name and try again.
+
+	C:\Users\arc>ping us.dd.imdb.com
+
+	Pinging us.dd.imdb.com [52.94.225.248] with 32 bytes of data:
+	Reply from 52.94.225.248: bytes=32 time=243ms TTL=228
+	Reply from 52.94.225.248: bytes=32 time=236ms TTL=228
+	Reply from 52.94.225.248: bytes=32 time=239ms TTL=228
+	Reply from 52.94.225.248: bytes=32 time=238ms TTL=228
+
+	Ping statistics for 52.94.225.248:
+		Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+		Minimum = 236ms, Maximum = 243ms, Average = 239ms
+
+	C:\Users\arc>
+}
